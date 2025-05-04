@@ -11,10 +11,14 @@ But there is certain workflow that we will be following to work with Scikit lear
 - Then we will need to fit the model or algorithm in the data to find out possible patterns from the data 
 
 4. Evaluating a model
-- Then we will need to evaluate if the model is working or accuracy of our given data
+- Then we will need to evaluate if the model is working or the accuracy of our given data
 
 5. Improve a model
 - and if needed we will have to improve the model as well
 
 6. Save and load a trained model
 - Then save the model and load the trained model where needed. which we have created by improving it according to our data
+
+Remember while working you might get different errors regarding many dependencies. to avoid or to not get it try and use the latest versions of environment. Python, Scikit learn, Anaconda. etc
+
+But if we still face some errors we will try to solve them gradually
