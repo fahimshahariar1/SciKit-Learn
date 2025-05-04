@@ -9,3 +9,12 @@ But there is certain workflow that we will be following to work with Scikit lear
 
 3. Fit the model/algorithm and use it to make predictions on our data
 - Then we will need to fit the model or algorithm in the data to find out possible patterns from the data 
+
+4. Evaluating a model
+- Then we will need to evaluate if the model is working or accuracy of our given data
+
+5. Improve a model
+- and if needed we will have to improve the model as well
+
+6. Save and load a trained model
+- Then save the model and load the trained model where needed. which we have created by improving it according to our data
