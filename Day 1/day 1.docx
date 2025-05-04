@@ -1,1 +1,5 @@
 Scikit-learn is a very powerful library that we can use to create different estimators/models/algorithms
+
+But there is certain workflow that we will be following to work with Scikit learn. Those are
+1. Getting the data ready
+  - We will first of all create the data or get the data ready. It could be by using Pandas and Numpy or by some predefined data
