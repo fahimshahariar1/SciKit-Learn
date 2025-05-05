@@ -7,3 +7,12 @@ To do so we need to follow 3 main things.
 1. Split the data into features and label (X & y)
 2. Filling/imputing or disregarding missing values
 3. Converting non-numerical values to numerical values also known as features encoding
+
+So we will use the heart_disease data here and we'll start with splitting the data in to features and labels.
+
+To do that we define X as X = heart_disease.drop("target", axis = 1)
+X.head(). so this will drop the target column and assign everything else in the X
+
+and we will define y as the target column 
+y = heart_disease["target"]
+y.head()
