@@ -1,3 +1,9 @@
 In the previous lesson, we learned that we need to follow some workflows to work with Scikit-learn.
 Now we will look in depth at each of the workflow's points.
 Starting with Getting the data ready
+
+Most of the time the data that we will have usually will not be ready to use. So we will need to make it ready to use.
+To do so we need to follow 3 main things.
+1. Split the data into features and label (X & y)
+2. Filling/imputing or disregarding missing values
+3. Converting non-numerical values to numerical values also known as features encoding
