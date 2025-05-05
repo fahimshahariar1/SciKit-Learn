@@ -16,3 +16,15 @@ X.head(). so this will drop the target column and assign everything else in the 
 and we will define y as the target column 
 y = heart_disease["target"]
 y.head()
+
+after that we will import a module from sklearn and split the data
+from sklearn.model_selection import train_test_split
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2)
+
+the module train_test_split gives us 4 parameters. X _train and X_test will be the trainig data and test data from the values of X and y_train and y_test will take the values from y
+
+Remember we shouldn't use the same data as train and test that's why we are splitting them and giving them a test size of 0.2 that means it will use 20% of the data from the file as test data and 80% wil be train data for both X and y
+
+now if we run it and check the shape of X and y we will be able to understand the splitting between the data of heart_disease.csv file
+
+Next we will fill the missing values
