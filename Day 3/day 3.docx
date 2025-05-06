@@ -10,3 +10,17 @@ from sklearn.preprocessing import OneHotEncoder
 from sklearn.compose import ColumnTransformer
 
 Onehotencoder basically encodes the categories into different numbers and columntransformer is what the name says it is
+Here we will first create a variable for the columns that needs to be changed
+categorical_features = ["Make", "Colour", "Doors"]
+
+then create a variable to use the Encoder
+one_hot = OneHotEncoder()
+
+and another variable to transform the columns as needed and pass in parameters
+transformer = ColumnTransformer([("one_hot", one_hot, categorical_features)],
+                               remainder="passthrough")
+
+now you will see its working
+transformed_X = transformer.fit_transform(X)
+transformed_X;
+
