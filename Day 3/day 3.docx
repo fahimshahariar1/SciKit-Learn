@@ -24,3 +24,7 @@ now you will see its working
 transformed_X = transformer.fit_transform(X)
 transformed_X;
 
+But the values that you will get we can't really use it so we have to put it into a numpy array
+transformed_X_dense = transformed_X.toarray()
+print(transformed_X_dense)
+Converting it to a numpy array
