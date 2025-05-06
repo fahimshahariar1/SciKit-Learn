@@ -28,3 +28,12 @@ But the values that you will get we can't really use it so we have to put it int
 transformed_X_dense = transformed_X.toarray()
 print(transformed_X_dense)
 Converting it to a numpy array
+
+Then again if we try to fit the model and evaluate
+np.random.seed(42)
+X_train, X_test, y_train, y_test = train_test_split(transformed_X_dense, y_new, test_size=0.2)
+
+model.fit(X_train, y_train)
+model.score(X_test, y_test)
+
+it will give us our desired result. yes the values might not be as good as we would like. Maybe the model hasn't worked as we wanted but we will look into that later. but that's how we can convert a non-numerical values or columns into numerical
