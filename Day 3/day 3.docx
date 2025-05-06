@@ -1,1 +1,5 @@
+As mentioned now we will look into converting non-numerical values to numerical values because the computer doesn't understand colors or any other features as we do.
 
+For example in the car_sales file we have many features of a car like color, doors ,etc. but the computer or machine or model will not understand what the color is for that particular car and hence will not be able to predict the value as needed.
+
+That's why we need to convert those into numerical values
