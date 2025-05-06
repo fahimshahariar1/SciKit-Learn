@@ -3,3 +3,10 @@ As mentioned now we will look into converting non-numerical values to numerical 
 For example in the car_sales file we have many features of a car like color, doors ,etc. but the computer or machine or model will not understand what the color is for that particular car and hence will not be able to predict the value as needed.
 
 That's why we need to convert those into numerical values
+if we just follow the normal workflow of getting the data ready and splitting into X/y and into train and test data and after that if you try to fit the model you will see an error like this : could not convert string to float: 'Honda'
+
+So, now we need to convert the values into numerical ones. to do that we will use two new modules from sklearn
+from sklearn.preprocessing import OneHotEncoder
+from sklearn.compose import ColumnTransformer
+
+Onehotencoder basically encodes the categories into different numbers and columntransformer is what the name says it is
