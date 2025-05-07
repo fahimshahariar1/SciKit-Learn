@@ -5,4 +5,6 @@ There are ways that we can fix them.
 
 1. fixing them by using pandas
 
+To Fix them with pandas we can just simply use the replace method to change the values to "missing" if they are integer and use the mean() function if its integer type
+
 2. fixing them using Scilit-learn
