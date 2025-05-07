@@ -1,2 +1,8 @@
 We saw a glimpse in the last lesson that there might be missing values in your data.
 and which might cause some issues when you are working with them they will give you errors
+
+There are ways that we can fix them.
+
+1. fixing them by using pandas
+
+2. fixing them using Scilit-learn
