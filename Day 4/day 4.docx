@@ -28,3 +28,13 @@ imputer = ColumnTransformer([
     ("door_imputer", door_imputer, door_features),
     ("num_imputer", num_imputer, num_features),
                             ])
+
+Then we will transform the data
+Notice here we are using two different variable for training and testing data this is very cruicial
+
+filled_X_train = imputer.fit_transform(X_train)
+filled_X_test = imputer.transform(X_test)
+
+filled_X_train
+
+Now if you run it you will see no errors or missing values
