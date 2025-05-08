@@ -65,3 +65,20 @@ transformed_X_test = transformer.transform(car_sales_filled_test) # transform th
 
 # Check transformed and filled X_train
 transformed_X_train.toarray()
+
+
+
+after converting it to an array if we  fir the model and score it
+
+# Now we've transformed X, let's see if we can fit a model
+np.random.seed(42)
+from sklearn.ensemble import RandomForestRegressor
+
+# Setup model
+model = RandomForestRegressor()
+
+# Make sure to use transformed (filled and one-hot encoded X data)
+model.fit(transformed_X_train, y_train)
+model.score(transformed_X_test, y_test)
+
+we will get our desired result
