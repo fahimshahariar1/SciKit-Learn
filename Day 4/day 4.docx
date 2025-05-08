@@ -8,3 +8,4 @@ There are ways that we can fix them.
 To Fix them with pandas we can just simply use the replace method to change the values to "missing" if they are integer and use the mean() function if its integer type
 
 2. fixing them using Scilit-learn
+In order to change or fill the mising values using Scikit learn we need to first split the data into X & y using the train_est_split module
