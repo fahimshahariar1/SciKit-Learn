@@ -17,3 +17,14 @@ door_imputer = SimpleImputer(strategy="constant", fill_value=4)
 num_imputer = SimpleImputer(strategy="mean")
 
 We first created 3 imputers who will impute based ont he categorical features
+cat_features = ["Make", "Colour"]
+door_features = ["Doors"]
+num_features = ["Odometer (KM)"]
+Then we will create the features and then 
+
+Call in the imputer function who will fill those missing values
+imputer = ColumnTransformer([
+    ("cat_imputer", cat_imputer, cat_features),
+    ("door_imputer", door_imputer, door_features),
+    ("num_imputer", num_imputer, num_features),
+                            ])
