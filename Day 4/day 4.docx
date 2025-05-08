@@ -9,3 +9,11 @@ To Fix them with pandas we can just simply use the replace method to change the 
 
 2. fixing them using Scilit-learn
 In order to change or fill the mising values using Scikit learn we need to first split the data into X & y using the train_est_split module
+
+The we will import two modules SimpleImputer and ColumnTransformer
+SimpleImputer is basically a helping hand who imputes or makes the changes and Columntransformer well as its name it transforms the columns
+cat_imputer = SimpleImputer(strategy="constant", fill_value="missing")
+door_imputer = SimpleImputer(strategy="constant", fill_value=4)
+num_imputer = SimpleImputer(strategy="mean")
+
+We first created 3 imputers who will impute based ont he categorical features
