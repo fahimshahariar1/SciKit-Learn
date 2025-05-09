@@ -17,3 +17,6 @@ So, Let's get started
 
 Previously for datasets, we used our own dataset but this time we are going to use a real-world dataset from SciKit_learn
 To do so, we are going to use the fetch_california_housing module of sklearn which you can find here https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html
+
+Now we have the dataset and you will see much of the information in it like the target, feature, values, etc. and we want to use the features to predict the target. Now let's turn this into a data frame
+housing_df = pd.DataFrame(housing["data"], columns = housing["feature_names"]) we want the data to be used as the values and the feature_names as the column and you will see the complete dataset which has 20+ thousand rows. now this would be fun
