@@ -20,3 +20,10 @@ To do so, we are going to use the fetch_california_housing module of sklearn whi
 
 Now we have the dataset and you will see much of the information in it like the target, feature, values, etc. and we want to use the features to predict the target. Now let's turn this into a data frame
 housing_df = pd.DataFrame(housing["data"], columns = housing["feature_names"]) we want the data to be used as the values and the feature_names as the column and you will see the complete dataset which has 20+ thousand rows. now this would be fun
+
+Now you'll see that there is a target given 'target_names': ['MedHouseVal'], which is not in the dataset. So, we need to add it to our dataset
+housing_df["MedHouseVal"] = housing["target"] so we ask scikit learn to add the target column into our new dataset 
+
+Then it will be like our usual flow. chossing the model. split the data into X & y and then test the data and predict
+Now to choose the model this time we are using the map from scikit learn and we choose Ridge model to experiment it on our dataset
+
