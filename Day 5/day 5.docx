@@ -27,3 +27,27 @@ housing_df["MedHouseVal"] = housing["target"] so we ask scikit learn to add the 
 Then it will be like our usual flow. chossing the model. split the data into X & y and then test the data and predict
 Now to choose the model this time we are using the map from scikit learn and we choose Ridge model to experiment it on our dataset
 
+#Choosing the algorithm/estimator
+from sklearn.linear_model import Ridge
+from sklearn.model_selection import train_test_split
+
+#setup random seed
+np.random.seed(42)
+
+#split into X & y
+X = housing_df.drop("target", axis = 1)
+y = housing_df["target"]
+
+#spliting the data into train and test
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 0.2)
+
+#Fit the data
+model = Ridge()
+model.fit(X_train, y_train)
+
+#score the data
+model.score(X_test, y_test)
+
+Then if run it we will see that this time we are getting a better result than the previous time. So, that means this time the algorithm has worked better than the previous algorithms.
+
+That's how we can check and choose different algorithm for our dataset
