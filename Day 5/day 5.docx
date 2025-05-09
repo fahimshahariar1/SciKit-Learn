@@ -10,4 +10,10 @@ If you have forgotten
 
 This is what I am talking about.
 
-So we have worked with point 1. which is getting the data ready now we are going to look into Choose the right estimators/algorithms/model
+So we have worked with point 1. which is getting the data ready now we are going to look into Choosing the right estimators/algorithms/model
+
+If you are someone like me who doesn't know which model or algorithm to choose for different types of datasets then you can follow https://scikit-learn.org/stable/machine_learning_map.html this link, where Scikit learn has map created for you to understand and select the correct algorithm based on your needs.
+So, Let's get started
+
+Previously for datasets, we used our own dataset but this time we are going to use a real-world dataset from SciKit_learn
+To do so, we are going to use the fetch_california_housing module of sklearn which you can find here https://scikit-learn.org/stable/modules/generated/sklearn.datasets.fetch_california_housing.html
