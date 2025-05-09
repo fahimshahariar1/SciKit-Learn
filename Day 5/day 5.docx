@@ -1,1 +1,13 @@
+As we have shared in the first lesson we need to follow a particular flow when we are working with SciKit-learn
+If you have forgotten 
+1. Getting the data ready
+2. Choose the right estimator/algorithm/model for our problems
+3. Fit the model/algorithm and use it to make predictions on our data
+4. Evaluating a model
+5. Improve a model
+6. Save and load a trained model
+7. Putting it all together
 
+This is what I am talking about.
+
+So we have worked with point 1. which is getting the data ready now we are going to look into Choose the right estimators/algorithms/model
