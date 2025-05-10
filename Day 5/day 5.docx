@@ -62,3 +62,15 @@ Random Forest is like a group decision-making system — it builds multiple deci
 
 So let's import that now
 from sklearn.ensemble import RandomForestRegressor
+
+then as usual splitting the data into X & y and creating training and test sets
+then if we create a model and fit it to score it on the test sets
+
+#Create a model and fit it
+model = RandomForestRegressor()
+model.fit(X_train, y_train)
+
+#predict the score
+model.score(X_test, y_test)
+
+
