@@ -73,4 +73,7 @@ model.fit(X_train, y_train)
 #predict the score
 model.score(X_test, y_test)
 
+Then this time we will find a much better score which is what we are looking for.
+
+That's how we can choose different models or algorithms to get our desired result
 
