@@ -50,4 +50,12 @@ model.score(X_test, y_test)
 
 Then if run it we will see that this time we are getting a better result than the previous time. So, that means this time the algorithm has worked better than the previous algorithms.
 
-That's how we can check and choose different algorithm for our dataset
+That's how we can check and choose different algorithms for our dataset
+
+Now we tried with Ridge model and it gave us an output. Now what if we want to try something else? a different algorithm? Then what would happen?
+That is what we are about to find out
+
+Let's say this time we are going to use the RandomForrestRegressor. And we found this model as well using the scikitlearn model choosing map.
+
+so, what is a random forest regressor 
+Random Forest is like a group decision-making system — it builds multiple decision trees, then combines their predictions to make the final decision. It’s a type of ensemble learning because it learns from many models instead of just one
