@@ -59,3 +59,6 @@ Let's say this time we are going to use the RandomForrestRegressor. And we found
 
 so, what is a random forest regressor 
 Random Forest is like a group decision-making system — it builds multiple decision trees, then combines their predictions to make the final decision. It’s a type of ensemble learning because it learns from many models instead of just one
+
+So let's import that now
+from sklearn.ensemble import RandomForestRegressor
