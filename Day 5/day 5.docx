@@ -84,3 +84,8 @@ that's what we are going to check now
 Again if you are not sure what we are talking about https://scikit-learn.org/stable/machine_learning_map.html follow this map and you will understand what we are doing
 So according to the map we are going to use the LinearSVC model/algorithm now
 and as we are going to work on a classification problem, we will need a classification dataset. which is the heart_disease dataset
+
+The flow will be as usual just going to import it and use it to fit and score the model
+from sklearn.svm import LinearSVC
+
+after following the usual flow it didn't gave us our expected result. So, now we need to try a different model
