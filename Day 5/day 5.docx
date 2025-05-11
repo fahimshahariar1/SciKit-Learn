@@ -89,3 +89,12 @@ The flow will be as usual just going to import it and use it to fit and score th
 from sklearn.svm import LinearSVC
 
 after following the usual flow it didn't gave us our expected result. So, now we need to try a different model
+Again using the map this time we are going to choose RandomForestClassifier algorithm
+
+from sklearn.ensemble import RandomForestClassifier
+
+and now you'll see that it has worked lot better than the other algorithms.
+
+Now the question might be that which algorithm to choose. So the answer it simple
+If you have a structured data like table then go with ensemble models or algorithms
+and if you have unstructured data then we will need deep learning models or transfer learning model which we are going to look at in the future
