@@ -81,3 +81,6 @@ Now we have seen Regression type problems where we predict a value of a variable
 What if we want to do it for a Classification type problem?
 that's what we are going to check now
 
+Again if you are not sure what we are talking about https://scikit-learn.org/stable/machine_learning_map.html follow this map and you will understand what we are doing
+So according to the map we are going to use the LinearSVC model/algorithm now
+and as we are going to work on a classification problem, we will need a classification dataset. which is the heart_disease dataset
