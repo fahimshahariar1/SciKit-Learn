@@ -77,3 +77,7 @@ Then this time we will find a much better score which is what we are looking for
 
 That's how we can choose different models or algorithms to get our desired result
 
+Now we have seen Regression type problems where we predict a value of a variable based on another variable. and we have tested different types of model/algorithms as well.
+What if we want to do it for a Classification type problem?
+that's what we are going to check now
+
