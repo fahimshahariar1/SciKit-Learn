@@ -6,3 +6,6 @@ So we have covered a lot till now. Up next we will move to our point no 3. Do yo
 5. Improve a model
 6. Save and load a trained model
 7. Putting it all together
+
+Today we are going to look at 3. Fit the model and use it to make predictions.
+Now you might think that we have already done it. Yes, we have but now we are going to look into this in a bit more depth
