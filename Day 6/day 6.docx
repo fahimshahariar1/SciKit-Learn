@@ -12,3 +12,5 @@ Now you might think that we have already done it. Yes, we have but now we are go
 
 So we have fit the model using the .fit function but when it comes to predictions it can be done in three ways 
 1. the way we did till now which is using the score() function
+2. using .predict 
+3. using predict_proba
