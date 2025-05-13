@@ -9,3 +9,5 @@ So we have covered a lot till now. Up next we will move to our point no 3. Do yo
 
 Today we are going to look at 3. Fit the model and use it to make predictions.
 Now you might think that we have already done it. Yes, we have but now we are going to look into this in a bit more depth
+
+So we have fit the model using the .fit function but when it comes to predictions it can be done in three ways 
