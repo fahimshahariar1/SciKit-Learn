@@ -15,4 +15,4 @@ So we have fit the model using the .fit function but when it comes to prediction
 2. using .predict 
 3. using predict_proba
 
-They would do similar
+They would do similar things in a different way
