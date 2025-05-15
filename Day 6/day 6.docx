@@ -12,7 +12,10 @@ Now you might think that we have already done it. Yes, we have but now we are go
 
 So we have fit the model using the .fit function but when it comes to predictions it can be done in three ways 
 1. the way we did till now which is using the score() function
-2. using .predict 
-3. using predict_proba
+2. using .predict - we can also call the predict() function and pass on the test set and it will give us the desired result
+3. using metrices - for this we will need to import a module from sklearn which is from sklearn.metrics import accuracy_score then call the 
+accuracy_score(y_test, y_preds) to get the result
+
+you will notice that three of them give us the same output or the same result as before
 
 They would do similar things in a different way
