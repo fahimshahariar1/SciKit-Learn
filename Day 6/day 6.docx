@@ -25,3 +25,7 @@ similarly if we run clf.predict_proba(X_test[:5]) it will give us an array of nu
 
 Now if we look deep you'd see that for the first number we got from the predict() function is 1 and for this from the predict_proba() function we got an array of [0.13, 0.87]
 where the number on the right side is bigger 
+
+For the third number from the predict() function we got 0 and from the predict_proba() function we got [0.67, 0.33] where the left number is bigger
+So that means predict_proba() function gives us the probabilities of the number that we are getting from the predict() function
+
