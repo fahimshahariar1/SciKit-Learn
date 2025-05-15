@@ -29,3 +29,6 @@ where the number on the right side is bigger
 For the third number from the predict() function we got 0 and from the predict_proba() function we got [0.67, 0.33] where the left number is bigger
 So that means predict_proba() function gives us the probabilities of the number that we are getting from the predict() function
 
+Like for the first one we got 1 and the proabability of that was higher with 0.87 on the right and for the third one the left one was higher showing no heart_disease or 0
+
+That's how these two works
