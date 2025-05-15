@@ -20,4 +20,5 @@ you will notice that three of them give us the same output or the same result as
 
 On the other hand what predict_proba() function does is the it will give us probability of something happening into two numbers of arrays.
 
-I
+If we go back and check clf.predict(X_test[:5]) you will see it will give us an array of numbers of 0 and 1
+similarly if we run clf.predict_proba(X_test[:5]) it will give us an array of numbers 
