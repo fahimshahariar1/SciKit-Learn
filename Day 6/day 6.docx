@@ -18,4 +18,6 @@ accuracy_score(y_test, y_preds) to get the result
 
 you will notice that three of them give us the same output or the same result as before
 
-They would do similar things in a different way
+On the other hand what predict_proba() function does is the it will give us probability of something happening into two numbers of arrays.
+
+I
