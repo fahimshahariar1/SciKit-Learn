@@ -37,3 +37,13 @@ Similarly, we can make predictions with the Regressor problem as well
 
 We just have to follow the same flow as we did for the classifier problem and then using the data sets to predict our data
 When using a predict function (or similar prediction function in other tools) on a regression problem, you get a vector (or array) of predicted values for the dependent variable based on the input values of the independent variables. Essentially, the predict function applies the regression model to new data and provides the model's estimated output for each input
+
+In more detail:
+1. Input:
+The predict function typically takes two main inputs:
+The fitted regression model: This is the model that has already been trained on a dataset and learned the relationship between the independent and dependent variables.
+New data: This is a dataset containing the values of the independent variables for which you want to make predictions.
+2. Process:
+The predict function then uses the learned model to calculate the predicted values of the dependent variable for each row of the new data.
+3. Output:
+The output is a vector (or array) of predicted values for the dependent variable, where each value corresponds to a row in the new input data. 
