@@ -32,3 +32,5 @@ So that means predict_proba() function gives us the probabilities of the number 
 Like for the first one we got 1 and the proabability of that was higher with 0.87 on the right and for the third one the left one was higher showing no heart_disease or 0
 
 That's how these two works
+
+Similarly, we can make predictions with the Regressor problem as well
