@@ -34,3 +34,6 @@ Like for the first one we got 1 and the proabability of that was higher with 0.8
 That's how these two works
 
 Similarly, we can make predictions with the Regressor problem as well
+
+We just have to follow the same flow as we did for the classifier problem and then using the data sets to predict our data
+When using a predict function (or similar prediction function in other tools) on a regression problem, you get a vector (or array) of predicted values for the dependent variable based on the input values of the independent variables. Essentially, the predict function applies the regression model to new data and provides the model's estimated output for each input
