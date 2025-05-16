@@ -47,3 +47,5 @@ New data: This is a dataset containing the values of the independent variables f
 The predict function then uses the learned model to calculate the predicted values of the dependent variable for each row of the new data.
 3. Output:
 The output is a vector (or array) of predicted values for the dependent variable, where each value corresponds to a row in the new input data. 
+
+As an example you can use the housing price dataset
